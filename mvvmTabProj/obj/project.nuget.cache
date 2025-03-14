@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "51sYL2EnW00=",
+  "dgSpecHash": "NBVmsowmayw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\mvvmTabProj.csproj",
+  "projectFilePath": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\mvvmTabProj.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prdb\\.nuget\\packages\\avalonia\\11.2.1\\avalonia.11.2.1.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

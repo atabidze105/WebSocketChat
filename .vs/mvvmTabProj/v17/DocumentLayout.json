@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\",
+  "WorkspaceRootPath": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|c:\\users\\prdb\\source\\repos\\mvvmtabproj\\mvvmtabproj\\data\\clientwebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|c:\\users\\prdb\\desktop\\tabwebsocketchat\\websocketchat\\mvvmtabproj\\data\\clientwebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|solutionrelative:mvvmtabproj\\data\\clientwebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|c:\\users\\prdb\\source\\repos\\mvvmtabproj\\mvvmtabproj\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E681243C-DA16-4F29-BE63-D0DA50E3AFFD}|WebsocketTab\\WebsocketTab.csproj|c:\\users\\prdb\\desktop\\tabwebsocketchat\\websocketchat\\websockettab\\controllers\\websocketchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E681243C-DA16-4F29-BE63-D0DA50E3AFFD}|WebsocketTab\\WebsocketTab.csproj|solutionrelative:websockettab\\controllers\\websocketchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|c:\\users\\prdb\\desktop\\tabwebsocketchat\\websocketchat\\mvvmtabproj\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|solutionrelative:mvvmtabproj\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|c:\\users\\prdb\\source\\repos\\mvvmtabproj\\mvvmtabproj\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|c:\\users\\prdb\\desktop\\tabwebsocketchat\\websocketchat\\mvvmtabproj\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{36B1EAC4-BCFC-4557-AD96-FA1E6DDE0CFB}|mvvmTabProj\\mvvmTabProj.csproj|solutionrelative:mvvmtabproj\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E681243C-DA16-4F29-BE63-D0DA50E3AFFD}|WebsocketTab\\WebsocketTab.csproj|c:\\users\\prdb\\desktop\\tabwebsocketchat\\websocketchat\\websockettab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E681243C-DA16-4F29-BE63-D0DA50E3AFFD}|WebsocketTab\\WebsocketTab.csproj|solutionrelative:websockettab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebSocketChatController.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\WebsocketTab\\Controllers\\WebSocketChatController.cs",
+              "RelativeDocumentMoniker": "WebsocketTab\\Controllers\\WebSocketChatController.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\WebsocketTab\\Controllers\\WebSocketChatController.cs",
+              "RelativeToolTip": "WebsocketTab\\Controllers\\WebSocketChatController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:12:42.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\WebsocketTab\\Program.cs",
+              "RelativeDocumentMoniker": "WebsocketTab\\Program.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\WebsocketTab\\Program.cs",
+              "RelativeToolTip": "WebsocketTab\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:54:46.746Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClientWebsocketHandler.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\Data\\ClientWebsocketHandler.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\Data\\ClientWebsocketHandler.cs",
               "RelativeDocumentMoniker": "mvvmTabProj\\Data\\ClientWebsocketHandler.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\Data\\ClientWebsocketHandler.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\Data\\ClientWebsocketHandler.cs",
               "RelativeToolTip": "mvvmTabProj\\Data\\ClientWebsocketHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T11:06:29.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\Views\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "mvvmTabProj\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\Views\\MainWindow.axaml",
               "RelativeToolTip": "mvvmTabProj\\Views\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-14T10:49:39.634Z",
@@ -51,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\ViewModels\\MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "mvvmTabProj\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "mvvmTabProj\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T10:49:34.416Z",
               "EditorCaption": ""

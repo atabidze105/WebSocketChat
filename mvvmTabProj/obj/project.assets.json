@@ -1480,11 +1480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\mvvmTabProj.csproj",
+      "projectUniqueName": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\mvvmTabProj.csproj",
       "projectName": "mvvmTabProj",
-      "projectPath": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\mvvmTabProj.csproj",
+      "projectPath": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\mvvmTabProj.csproj",
       "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prdb\\source\\repos\\mvvmTabProj\\mvvmTabProj\\obj\\",
+      "outputPath": "C:\\Users\\prdb\\Desktop\\tabWebsocketChat\\WebSocketChat\\mvvmTabProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

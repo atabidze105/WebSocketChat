@@ -1,32 +1,39 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System;
 using System.Collections.ObjectModel;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace mvvmTabProj.ViewModels
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
-        private readonly Uri uri = new Uri("ws://217.114.2.102:8088/reviews");
-        public ObservableCollection<string> Messages { get; set; } = new();
+        private readonly ClientWebsocketHandler _clientWebsocketHandler = new();
+        public ObservableCollection<string> _Messages { get; set; } = new();
+
+        [ObservableProperty]
+        public string _currentMessage = String.Empty;
+
+
+
 
         public MainWindowViewModel()
         {
-            Task.Run(async () => await Connect());
+            _clientWebsocketHandler.OnRecieveMessage += DisplayMessage;
         }
 
-        private async Task Connect()
+        private void DisplayMessage( string message)
         {
-            using var clientWebSocket = new ClientWebSocket();
-            await clientWebSocket.ConnectAsync(uri, CancellationToken.None);
-            while (clientWebSocket.State == WebSocketState.Open)
-            {
-                ArraySegment<byte> buffer = new ArraySegment<byte>(new byte[1024 * 4]);
-                var result = await clientWebSocket.ReceiveAsync(buffer, CancellationToken.None);
-                Messages.Add(Encoding.UTF8.GetString(buffer.Array, 0, result.Count));
-            }
+            _Messages.Add(message);
+        }
+
+        public async Task SendMessage(string message)
+        {
+            _Messages.Add(message);
+            await _clientWebsocketHandler.SendMessage(message);
         }
     }
 }

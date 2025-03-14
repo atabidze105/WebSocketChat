@@ -14,15 +14,27 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
 		<vm:MainWindowViewModel/>
 	</Design.DataContext>
+	<Grid
+		RowDefinitions="*,auto">
 
-	<ListBox ItemsSource="{Binding Messages}">
-		<ListBox.ItemTemplate>
-			<DataTemplate>
-				<TextBlock Text="{Binding}"
-					 TextWrapping="WrapWithOverflow"/>
-			</DataTemplate>
-		</ListBox.ItemTemplate>
-
-	</ListBox>
-
+		<ListBox ItemsSource="{Binding _Messages}" Margin="5">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border Background="White" BorderBrush="Black" BorderThickness="1">
+						<TextBlock 
+							Text="{Binding}" Margin="5"
+							TextWrapping="WrapWithOverflow"/>						
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		<StackPanel
+			Margin="5"
+			Grid.Row="1"
+			Orientation="Horizontal">
+			<TextBox Text="{Binding CurrentMessage}" Watermark="Ваше сообщение..."/>
+			<Button Command="{Binding SendMessage}" CommandParameter="{Binding CurrentMessage}" Content="Отправить"/>
+		</StackPanel>
+		
+	</Grid>
 </Window>

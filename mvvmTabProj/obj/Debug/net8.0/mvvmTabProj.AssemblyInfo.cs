@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mvvmTabProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cf4cbfff9d5db21a2bfaaf8c33104c862a12151")]
 [assembly: System.Reflection.AssemblyProductAttribute("mvvmTabProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mvvmTabProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
